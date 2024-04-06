@@ -1,0 +1,38 @@
+body{
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container > form{
+    width: 250px;
+    height: 250px;
+    padding: 20px 20px;
+    background: #aaaaaa;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container > form >input{
+    background: #ffffff;
+    padding: 10px 3px;
+    margin: 10px 0;
+    border: none;
+    border-right: 8px;
+}
+.container > form >button{
+    margin-top: 10px;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    background: #ffffff;
+    border: none;
+    border-radius: 15px;
+}
+.container > form > h1{
+    text-align: center;
+}
